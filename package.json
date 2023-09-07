@@ -1,0 +1,19 @@
+{
+  "name": "discord-submission-filter",
+  "version": "1.0.0",
+  "description": "Filter and fetch messages from your discord channels.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
