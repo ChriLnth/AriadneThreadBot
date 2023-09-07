@@ -59,7 +59,7 @@ client.on('interactionCreate', async (interaction) => {
       const channelSuffix = interaction.options.getString('channelsuffix')
       const keysString = interaction.options.getString('keys')
       const keys = keysString.split(',').map((k) => k.trim())
-      const results = [] // Declare results here
+      const results = []
 
       const channels = interaction.guild.channels.cache.filter((channel) => {
         return channel.name.endsWith(channelSuffix)
